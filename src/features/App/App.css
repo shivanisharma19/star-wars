@@ -1,0 +1,10 @@
+.app {
+  text-align: center;
+}
+
+.app__heading {
+  color: #A52828;
+  margin: 4px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-weight: 950;
+}

@@ -1,0 +1,24 @@
+.app__container {
+   display: block;
+   margin: 16px 36px;
+}
+
+.list_wrapper {
+    margin-top: 12px;
+    margin-left: 30px;
+    display: grid;
+    grid-template-columns: repeat(5, 2fr);
+    gap: 16px;
+}
+
+.card {
+    width: 96px;
+    height: 96px;
+    &:nth-child(even) { background: #7e6807; }
+    &:nth-child(odd) { background: #ca9d22; }
+}
+
+.no-data {
+    text-align: center;
+    color: #646363;   
+}

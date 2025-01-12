@@ -1,0 +1,24 @@
+.search__container {
+    display:flex;
+    justify-content: space-between;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.search-box {
+    padding: 4px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input::placeholder{
+    font-size: x-small;
+}
+
+.right-buttons {
+    display: flex;
+
+    &>button{
+        width: 80px;
+    }
+}

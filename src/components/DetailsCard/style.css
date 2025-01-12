@@ -1,0 +1,9 @@
+.details-table {
+    background-color: #DCB51A;
+}
+
+.details-table-field {
+    display: inline-block;
+    text-align: left;
+    font-weight: bold;
+}

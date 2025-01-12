@@ -1,0 +1,24 @@
+.card-table {
+    color:whitesmoke;
+    text-align: left;
+    margin: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 90%;
+
+    &>h5 {
+        margin: 0;
+    }
+}
+
+.card-table__details {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.card-table__field {
+    margin: 0;
+    font-size: x-small;
+    margin-top: 4px;
+}
